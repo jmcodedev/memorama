@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #e6fffd;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  margin: 50px auto;
+  max-width: 500px;
+}
+
+.grid-container .grid-item {
+  cursor: pointer;
+  pointer-events: none;
+  border-radius: 10px;
+  border-color: none;
+  width: 90px;
+  height: 90px;
+  background-color: #aee2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition-duration: 0.2s;
+}
+
+.grid-container .grid-item img {
+  width: 75%;
+}
+
+.grid-container .grid-item.activada:hover {
+  background-color: lightgreen;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#empezarPartida {
+  color: white;
+  background-color: #5a46d8;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+  width: 200px;
+  height: 50px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+
+  &:hover {
+    background-color: #8477f7;
+  }
+}
+
+.boton-div {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.mensaje-div {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+  padding-bottom: 50px;
+}
