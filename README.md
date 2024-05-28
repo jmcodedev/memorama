@@ -11,4 +11,3 @@ Para correr el proyecto:
 - Ejecutar el sandbox con `npm run dev`
 - Abrir navegador en `http://localhost:5173`
 
-2. Abrir en remoto desde <a href="https://jmcode.dev/memorama">Memorama JmCode</a>
